@@ -1,4 +1,5 @@
 smb-nose {
+  transition: 2s;
   width: 75px;
   height: 75px;
   position: absolute;
@@ -6,6 +7,14 @@ smb-nose {
   border-radius: 50%;
   top: 333px;
   left: 280px;
+}
+
+.purple {
+  background: purple;
+  width: 100px;
+  height: 100px;
+  margin-left: -12.5px;
+  margin-top: -12.5px;
 }
 
 smb-shadow-nose {

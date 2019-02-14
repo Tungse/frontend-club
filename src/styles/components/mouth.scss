@@ -6,6 +6,28 @@ smb-mouth {
   border-radius: 50%;
   top: 450px;
   left: 196px;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+
+  &.moovit {
+    height: 20px;
+    top: 510px;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+  }
+
+  .swoop {
+    background-color: #fff;
+    border: 5px solid #000;
+    position: absolute;
+    left: 240px;
+  }
 }
 
 smb-shadow-mouth {
