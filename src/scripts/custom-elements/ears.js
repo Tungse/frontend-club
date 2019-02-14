@@ -2,7 +2,6 @@ if ('customElements' in window) {
   class Ears extends HTMLElement {
     constructor() {
       super();
-      this.attachShadow({mode: open});
       const documentMousemove = (e) => {
         const x = e.clientX / 20 - this.offsetWidth / 2;
         const y = e.clientY / 20 - this.offsetHeight / 2;
