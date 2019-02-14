@@ -5,6 +5,4 @@ class SmbMouth extends HTMLElement {
   }
 }
 window.customElements.define("smb-mouth", SmbMouth);
-
-var element = getElementsByTagName(smb-mouth);
-setTimeout(function(){ element.classList.add("moovit"); }, 3000);
+setTimeout(function(){ document.getElementsByTagName('smb-mouth').classList.add("moovit"); }, 3000);
