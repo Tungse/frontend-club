@@ -1,3 +1,21 @@
+smb-eyes {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  background: red;
+  border-radius: 50%;
+}
+
+smb-eyes[position="left"] {
+  top: 253px;
+  left: 174px;
+}
+
+smb-eyes[position="right"] {
+  top: 253px;
+  right: 182px;
+}
+
 smb-shadow-eyes {
   width: 145px;
   height: 154px;

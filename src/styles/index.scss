@@ -1,12 +1,7 @@
-@import "custom-elements/ears";
-@import "custom-elements/eyes";
-@import "custom-elements/mouth";
-@import "custom-elements/nose";
-
-@import "shadow-dom/ears";
-@import "shadow-dom/eyes";
-@import "shadow-dom/mouth";
-@import "shadow-dom/nose";
+@import "components/ears";
+@import "components/eyes";
+@import "components/mouth";
+@import "components/nose";
 
 body {
   width: 1295px;

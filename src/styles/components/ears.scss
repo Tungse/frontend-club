@@ -1,3 +1,21 @@
+smb-ears {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  background: pink;
+  border-radius: 50%;
+}
+
+smb-ears[position="left"] {
+  top: 360px;
+  left: 140px;
+}
+
+smb-ears[position="right"] {
+  top: 360px;
+  right: 147px;
+}
+
 smb-shadow-ears {
   width: 50px;
   height: 100px;
