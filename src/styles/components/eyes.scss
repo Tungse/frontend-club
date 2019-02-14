@@ -2,8 +2,19 @@ smb-eyes {
   width: 125px;
   height: 125px;
   position: absolute;
-  background: red;
+  background: #FDCF03;
   border-radius: 50%;
+}
+
+smb-brain {
+  width: 240px;
+  height: 120px;
+  position: absolute;
+  background: white;
+  background-image: url("https://media.giphy.com/media/bhspUgT2ZBTB6/giphy.gif");
+  border-radius: 50%;
+  top: 80px;
+  left: 196px;
 }
 
 smb-eyes[position="left"] {
@@ -20,7 +31,7 @@ smb-shadow-eyes {
   width: 145px;
   height: 154px;
   position: absolute;
-  background: red;
+  background-color: #FDCF03;
   border-radius: 50%;
 }
 
@@ -32,4 +43,8 @@ smb-shadow-eyes[position="left"] {
 smb-shadow-eyes[position="right"] {
   top: 277px;
   right: 190px;
+}
+
+.eyes {
+  transition: height 2s;
 }
