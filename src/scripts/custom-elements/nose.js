@@ -1,7 +1,6 @@
 class SmbNose extends HTMLElement {
   constructor() {
     super();
-    let i = 333333;
     setInterval(() => {
       this.className = 'purple';
       setTimeout(() => {
