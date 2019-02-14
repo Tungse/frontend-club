@@ -1,5 +1,32 @@
-$body-color: blue;
+@import "custom-elements/ears";
+@import "custom-elements/eyes";
+@import "custom-elements/mouth";
+@import "custom-elements/nose";
+
+@import "shadow-dom/ears";
+@import "shadow-dom/eyes";
+@import "shadow-dom/mouth";
+@import "shadow-dom/nose";
 
 body {
-  color: $body-color;
+  margin: 100px auto;
+}
+
+.container {
+  width: 50%;
+  float: left;
+  height: 800px;
+  position: relative;
+}
+
+.custom-elements {
+  background-image: url("../img/homer.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.shadow-dom {
+  background-image: url("../img/bart.gif");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
