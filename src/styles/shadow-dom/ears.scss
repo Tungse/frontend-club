@@ -1,0 +1,17 @@
+smb-shadow-ears {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  background: pink;
+  border-radius: 50%;
+}
+
+smb-shadow-ears[position="left"] {
+  top: 375px;
+  left: 108px;
+}
+
+smb-shadow-ears[position="right"] {
+  top: 375px;
+  right: 159px;
+}
