@@ -9,14 +9,15 @@
 @import "shadow-dom/nose";
 
 body {
+  width: 1295px;
   margin: 100px auto;
 }
 
 .container {
-  width: 50%;
-  float: left;
+  width: 645px;
   height: 800px;
   position: relative;
+  display: inline-block;
 }
 
 .custom-elements {
